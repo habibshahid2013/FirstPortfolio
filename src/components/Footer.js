@@ -1,8 +1,7 @@
 import React from "react"
 
 //react font awesome
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import {faBars} from "@fortawesome/free-solid-svg-icons";
+import { FaTwitterSquare, FaInstagram, FaFacebookSquare, FaGithubSquare, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
     return (
@@ -11,13 +10,19 @@ const Footer = () => {
       <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
         <svg class="bi" width="30" height="24"><use xlinkHref="#bootstrap"></use></svg>
       </a>
-      <span class="text-muted">© 2021 Company, Inc</span>
+      <span class="text-muted">© Hassan Shahid, 2021</span>
     </div>
 
     <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlinkHref="#twitter"></use></svg></a></li>
-      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlinkHref="#instagram"></use></svg></a></li>
-      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlinkHref="#facebook"></use></svg></a></li>
+      <li> <a href="https://github.com/habibshahid2013">
+        <i><FaGithubSquare size="3rem" color="green"/></i>
+        </a></li>
+      <li> <a href="https://www.linkedin.com/in/hassan-shahid-49849368/">
+        <i><FaLinkedin size="3rem" color="green"/></i>
+        </a></li>
+      <li> <a href="https://github.com/habibshahid2013">
+        <i><FaTwitterSquare size="3rem" color="green"/></i>
+        </a></li>
     </ul>
   </footer>
     )
