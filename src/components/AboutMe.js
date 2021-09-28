@@ -22,7 +22,7 @@ const AboutMe = () => {
                    
                 </div>
                 <div className="col-lg-6 col-xm-12">
-                    <h1 className="about-heading">about me</h1>
+                    <h1 className="about-heading"><u>about me</u></h1>
                     <p> My three passions are music, living with a purpose , and all things involving tech. After spending the last 8 years in Youth Work, Also having some success as a local twin cities artist. I decided to explore one of my other passions and began to pursue a career in the tech field. I trained and worked for a few years as a Network Engineer working within multiple data-center environments providing my expertise and knowledge within the routing and switching realm.  
 Eager to continue my education and develop my skill-set I decided to switch my focus going into software development. Having completed a 20 week intensive program at Prime Academy in October 2021, I learned the coding skills necessary to excel in the web/app development world. Currently I’m trained and certified as a Software Engineer looking to grow within the field and utilizing the Full-Stack Engineering skills-set that I developed. 
 </p>

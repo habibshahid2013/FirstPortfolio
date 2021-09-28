@@ -10,7 +10,7 @@ const Footer = () => {
       <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
         <svg class="bi" width="30" height="24"><use xlinkHref="#bootstrap"></use></svg>
       </a>
-      <span class="text-muted">© Hassan Shahid, 2021</span>
+      <span className="copyright" >© Hassan Shahid, 2021</span>
     </div>
 
     <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
@@ -20,8 +20,8 @@ const Footer = () => {
       <li> <a href="https://www.linkedin.com/in/hassan-shahid-49849368/">
         <i><FaLinkedin size="3rem" color="green"/></i>
         </a></li>
-      <li> <a href="https://github.com/habibshahid2013">
-        <i><FaTwitterSquare size="3rem" color="green"/></i>
+      <li> <a href="https://www.facebook.com/KrimsonLotus">
+        <i><FaFacebookSquare size="3rem" color="green"/></i>
         </a></li>
     </ul>
   </footer>

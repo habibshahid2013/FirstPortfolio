@@ -11,7 +11,7 @@ const Portfolio = () => {
     return (
         <>
        <div>
-           <h1 className="profolio-header">Portfolio</h1>
+           <h1 className="profolio-header"><u>Portfolio</u></h1>
        </div>
 <div id="profiolo" class="card-group">
     
@@ -19,9 +19,9 @@ const Portfolio = () => {
     <img src={Pizza} class="card-img-top" alt="..."/>
     <div class="card-body">
       <h5 class="card-title">Pizza Parlor</h5>
-      <p class="card-text">The initil point of this assignment was to set up the API CRUD commands within the Application. returning the information with a GET command. From there you had to use POST command to order the pizza order input into the database using a POST command. Then reorder the information onto the DOM with another GET command. This assignment was to demoestrae our knowledge on using Reduxs and also how to send API commands to postgresSQL Database. Making a basic, but functionaing pizza ordering web application.</p>
+      <p class="card-text">The initil point of this application was to set up the API CRUD functionality within the application. returning the information with a GET command. From there you had to use POST command to order the pizza order input into the database using a POST command. Then reorder the information onto the DOM with another GET command. This assignment was to demoestrae our knowledge on using Reduxs and also how to send API commands to postgresSQL Database. Making a basic, but functionaing pizza ordering web application.</p>
     </div>
-    <div class="card-footer">
+    <div id="cards" class="card-footer">
        <a href="https://github.com/habibshahid2013/redux-pizza-parlor2">
         <i><FaLink size="3rem" color="blue"/></i>
         </a>
@@ -33,7 +33,7 @@ const Portfolio = () => {
       <h5 class="card-title">Pets Hotel</h5>
       <p class="card-text"> This projected was focused on getting the Routes connected and built within the application using our knolwdge on CRUD API functionality. I was able to build a functional application the owner could see how many pets they have within the hotel. Adding or substracting the amount of pets each owner has. Sending that information to the database. Also being able to add and remove Pet owners  aswell. This project was amazing due to the fact it was built using .NET and C#</p>
     </div>
-    <div class="card-footer">
+    <div id="cards" class="card-footer">
       <a href="https://github.com/habibshahid2013/pet-hotel">
         <i><FaLink size="3rem" color="blue"/></i>
         </a>
@@ -45,7 +45,7 @@ const Portfolio = () => {
       <h5 class="card-title">Group Project</h5>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
     </div>
-    <div class="card-footer">
+    <div id="cards" class="card-footer">
       <a href="https://github.com/habibshahid2013/redux-pizza-parlor2">
         <i><FaLink size="3rem" color="blue"/></i>
         </a>
