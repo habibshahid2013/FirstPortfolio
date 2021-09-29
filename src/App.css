@@ -182,10 +182,10 @@ border-top: 0.1875rem solid var(--primary-green);
 
 /********************************Experience *************************************/
 
-p {
+.pexp{
   font-size: 14px;
-
 }
+
 .experience-wrapper{
   position: relative;
   padding: 3.125rem 0; 

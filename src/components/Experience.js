@@ -4,14 +4,14 @@ const Experience = () => {
     return (
         <div className="experience">
             <div className="d-flex justify-content-center my-5">
-                <h1>experience</h1>
+                <h1><u>experience</u></h1>
             </div>
             <div className="container experience-wrapper">
             <div className="timeline-block timeline-block-right">
                 <div className="marker"></div>
                 <div className="timeline-content">
                     <h3>2017-2018</h3>
-                    <p>
+                    <p className="pexp">
 • Implemented small to medium sized site tech refreshes where I replaced the legacy WAN routers with newer 4300 series ISRs and Core switches with newer 3850 series Core switches and Access switches.
 • Implemented access switches which were Layer 2 with a data and voice vlan for each IDF to create a more stable spanning tree environment.
 • The core switches ran HSRP for redundancy and provided default gateways for all vlans and subnets.
@@ -31,7 +31,7 @@ const Experience = () => {
                 <div className="marker"></div>
                 <div className="timeline-content">
                     <h3>2018-2019</h3>
-                    <p>
+                    <p className="pexp">
 • Implemented small to medium sized site tech refreshes where I replaced the legacy WAN routers with newer 4300 series ISRs and Core switches with newer 3850 series Core switches and Access switches.
 • Implemented access switches which were Layer 2 with a data and voice vlan for each IDF to create a more stable spanning tree environment.
 • The core switches ran HSRP for redundancy and provided default gateways for all vlans and subnets.
@@ -51,7 +51,7 @@ const Experience = () => {
                 <div className="marker"></div>
                 <div className="timeline-content">
                     <h3>2019-2020</h3>
-                    <p>
+                    <p className="pexp" >
 • Implemented small to medium sized site tech refreshes where I replaced the legacy WAN routers with newer 4300 series ISRs and Core switches with newer 3850 series Core switches and Access switches.
 • Implemented access switches which were Layer 2 with a data and voice vlan for each IDF to create a more stable spanning tree environment.
 • The core switches ran HSRP for redundancy and provided default gateways for all vlans and subnets.
@@ -71,7 +71,7 @@ const Experience = () => {
                 <div className="marker"></div>
                 <div className="timeline-content">
                     <h3>2020-2021</h3>
-                    <p>
+                    <p className="pexp">
 • Implemented small to medium sized site tech refreshes where I replaced the legacy WAN routers with newer 4300 series ISRs and Core switches with newer 3850 series Core switches and Access switches.
 • Implemented access switches which were Layer 2 with a data and voice vlan for each IDF to create a more stable spanning tree environment.
 • The core switches ran HSRP for redundancy and provided default gateways for all vlans and subnets.
@@ -91,7 +91,7 @@ const Experience = () => {
                 <div className="marker"></div>
                 <div className="timeline-content">
                     <h3>2021-2022</h3>
-                    <p>
+                    <p className="pexp">
 • Implemented small to medium sized site tech refreshes where I replaced the legacy WAN routers with newer 4300 series ISRs and Core switches with newer 3850 series Core switches and Access switches.
 • Implemented access switches which were Layer 2 with a data and voice vlan for each IDF to create a more stable spanning tree environment.
 • The core switches ran HSRP for redundancy and provided default gateways for all vlans and subnets.
