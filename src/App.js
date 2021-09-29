@@ -7,6 +7,7 @@ import shape from '@material-ui/core/styles/shape';
 import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
+import Experience from './components/Experience';
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
      <Navbar/>
      <Header/>
      <AboutMe/>
+     <Experience/>
      <Portfolio/>
      <Footer/>
      </>
