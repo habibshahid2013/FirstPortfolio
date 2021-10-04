@@ -8,15 +8,16 @@ import { faDesktop, faFileCode, faNetworkWired, faUsers} from "@fortawesome/free
 
 const Services = () => {
     return (
-       <div className="services">
+       <div id="services" className="services">
            <div className="py-5">
             <div className="container">
+                   <h1 className="skill"><u>Professional Skill-Set</u></h1>
                 <div className="row">
                     <div className="col-md-4 col-sm-6">
                         <div className="box">
        <div className="circle"><FontAwesomeIcon icon={faDesktop} size="4x" color="green" /></div>
                             <h3>Software Engineering </h3>
-                            <p>I'm versed through various languages needed to do Full-Stack Engineering. After being trained at Prime Digital Academy. I'm certified to to be a Full-Stack Software Engineer. </p>
+                            <p>Versed through various languages needed to do Full-Stack Engineering. After being trained at Prime Digital Academy. I'm certified to to be a Full-Stack Software Engineer. </p>
                             <p><u> Software Engineer Skill-Set</u></p>
                             <p>Node.js, PostgresSQL, HTML, CSS, JQuery, JavaScript, React, Redux, Saga, JSON, Git, Heroku, Bootstrap, Material UI, AJAX, REST, Express, Firebase,.Net, C#  </p>
 
@@ -28,7 +29,7 @@ const Services = () => {
                         <div className="box">
          <div className="circle"><FontAwesomeIcon icon={faNetworkWired} size="4x" color="green"/></div>
                             <h3>Network Engineering</h3>
-                            <p>Training and working within the Networking Field. I am CCNA Qualified. Applying my knowledge of routing and switching into various Data Center environments.  </p>
+                            <p>Trained and certified within the Networking Field. I am CCNA Qualified. Applying my knowledge of routing and switching into various Data Center environments.  </p>
                             <p><u>Network Engineer Technologies</u></p>
                             <ul className="techlist">
                             <li>Routing and Switching</li>
@@ -48,8 +49,8 @@ const Services = () => {
                     <div className="col-md-4 col-sm-6">
                         <div className="box">
          <div className="circle"><FontAwesomeIcon icon={faUsers} size="4x" color="green"/></div>
-                            <h3>Social Development</h3>
-                            <p>Over the years I've developed many soft skills that I've used in many organizations to provide effective and progressional enviorment </p>
+                            <h3>Social Professionalism</h3>
+                            <p>Over the years I've developed many soft skills that I've used in many organizations to provide effective and progressional environments </p>
                             <p><u>Social/Analytical  Development</u></p>
                             <ul className="techlist">
                             <li>Facilitator Skills</li>

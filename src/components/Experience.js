@@ -3,7 +3,7 @@ import author from "../components/images/InShot_20210803_101306628.jpg"
 
 const Experience = () => {
     return (
-        <div className="experience">
+        <div id="experience" className="experience">
             <div className="d-flex justify-content-center my-5">
                 <h1><u>Professional Timeline</u></h1>
             </div>
@@ -42,7 +42,7 @@ Government, Y-Start)</li>
              </p>
 <li>Learned the fundamentals of Networking, Routing, and Switching.</li>
 <li> Developed skill-sets around Troubleshooting networks and databases. Learned layer 1-3 configurations to help modify and build Networks.</li>
-<li>Developed Networking technical skills using various platforms and technologies. Learning Subnetting, The functionality of routers, switches, firewalls, wireless, and various other technologies within the networking infrastructure.</li>
+<li>Developed Networking technical skills using various platforms and technologies. Learning Sub-netting, The functionality of routers, switches, firewalls, wireless, and various other technologies within the networking infrastructure.</li>
 <li>CCNA Qualified upon completion of the program.</li>
                     </p>
                 </div>
@@ -76,7 +76,7 @@ Government, Y-Start)</li>
                     <p className="pexp">
                 <h3><u>Sleep Number HQ </u></h3>
             <h4>Network Engineer II</h4>
-Was contracted out to provide my Network Engineering skill-set within Sleep Number Cisco ACI Fabric production enviorment. I had to
+Was contracted out to provide my Network Engineering skill-set within Sleep Number Cisco ACI Fabric production environments. I had to
 interact with application personnel and other infrastructure personnel to develop and support secure, network aware applications. Also
 developed strong working relationship by working collaboratively with peer employees in the operations network services teams and partners. As-well
 conduct research on network products, services, protocols, and standards to remain abreast of developments in the networking industry. Wih countless other Networking responsibilities.
