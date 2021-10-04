@@ -40,10 +40,9 @@ function App() {
      <Navbar/>
      <Header/>
      <AboutMe/>
-     <Services/>
 
      <Experience/>
-
+      <Services/>
      <Portfolio/>
 
      <Footer/>
