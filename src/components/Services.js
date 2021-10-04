@@ -1,7 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF, faGoogle } from "@fortawesome/free-brands-svg-icons"
-import { faDesktop, faFileCode,  fa-network-wired} from "@fortawesome/free-solid-svg-icons";
+import { faDesktop, faFileCode, faNetworkWired, faUsers} from "@fortawesome/free-solid-svg-icons";
 
 
 
@@ -14,7 +14,7 @@ const Services = () => {
                 <div className="row">
                     <div className="col-md-4 col-sm-6">
                         <div className="box">
-       <div className="circle"><FontAwesomeIcon icon={faDesktop} size="2x"/></div>
+       <div className="circle"><FontAwesomeIcon icon={faDesktop} size="4x" color="green" /></div>
                             <h3>Software Engineering </h3>
                             <p>I'm versed through various languages needed to do Full-Stack Engineering. After being trained at Prime Digital Academy. I'm certified to to be a Full-Stack Software Engineer. </p>
                             <p><u> Software Engineer Skill-Set</u></p>
@@ -26,7 +26,7 @@ const Services = () => {
                     {/*   */}
                     <div className="col-md-4 col-sm-6">
                         <div className="box">
-         <div className="circle"><FaNetworkWired  icon={FaNetworkWired} size="2x"/></div>
+         <div className="circle"><FontAwesomeIcon icon={faNetworkWired} size="4x" color="green"/></div>
                             <h3>Network Engineering</h3>
                             <p>Training and working within the Networking Field. I am CCNA Qualified. Applying my knowledge of routing and switching into various Data Center environments.  </p>
                             <p><u>Network Engineer Technologies</u></p>
@@ -47,9 +47,21 @@ const Services = () => {
                      {/*   */}
                     <div className="col-md-4 col-sm-6">
                         <div className="box">
-         <div className="circle"><FontAwesomeIcon icon={faFileCode} size="2x"/></div>
-                            <h3>Network Engineering</h3>
-                            <p>Real niggas stay winning when they focus on the goal YEAAAAHHH</p>
+         <div className="circle"><FontAwesomeIcon icon={faUsers} size="4x" color="green"/></div>
+                            <h3>Social Development</h3>
+                            <p>Over the years I've developed many soft skills that I've used in many organizations to provide effective and progressional enviorment </p>
+                            <p><u>Social/Analytical  Development</u></p>
+                            <ul className="techlist">
+                            <li>Facilitator Skills</li>
+                            <li>Communicational Skills</li>
+                            <li>Open-mindedness and Adaptability Skills</li>
+                            <li> Critical thinking, creativity, and problem-solving Skills</li>
+                            <li>Teamwork and Collaboration Skills</li>
+                            <li>Organizational Skills</li>
+                            <li>Problem Solving and Analytical Skills</li>
+                            <li>Interpersonal Skills</li>
+
+                            </ul> 
                         </div>
                     </div>
                 </div>
