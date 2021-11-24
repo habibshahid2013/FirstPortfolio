@@ -49,7 +49,7 @@ const Portfolio = () => {
 Technologies Used: React.js, Leaflet.js, Express.js, Git, React-Geocode, Passport Authentication, Node.js, Redux, Saga, Rest APIs, PostgreSQL, HTML and CSS, and Bootstrap.</p>
     </div>
     <div id="cards" class="card-footer">
-      <a href="https://ancient-savannah-42403.herokuapp.com/#/map">
+      <a href="https://github.com/habibshahid2013/freeGo">
         <i><FaLink size="3rem" color="blue"/></i>
         </a>
     </div>
