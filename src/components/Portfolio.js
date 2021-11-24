@@ -1,7 +1,7 @@
 import React from 'react'
 import Pizza from "../components/images/Pizza.png"
 import Dotnet from "../components/images/dotnet.png"
-import TBA from "../components/images/TBA.jpeg"
+import freeGo from "../components/images/freeGo.png"
 //react font awesome
 import { FaGithub, FaLink } from "react-icons/fa";
 
@@ -40,7 +40,7 @@ const Portfolio = () => {
     </div>
   </div>
   <div class="card">
-    <img src={TBA} class="card-img-top" alt="..."/>
+    <img src={freeGo} class="card-img-top" alt="..."/>
     <div class="card-body">
       <h5 class="card-title">FreeGo</h5>
       <p class="card-text">FreeGo – FreeGo is a mobile application. With this application, users will be able to receive live updates on hazards that are occurring in their area. All hazards are from other people in your area that saw and reported that issue. This way, users can use this application to keep themselves and others safe during their day-to-day activities.
