@@ -1,7 +1,7 @@
 import React from "react"
 
 //react font awesome
-import { FaTwitterSquare, FaInstagram, FaFacebookSquare, FaGithubSquare, FaLinkedin } from "react-icons/fa";
+import {  FaFacebookSquare, FaGithubSquare, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
     return (

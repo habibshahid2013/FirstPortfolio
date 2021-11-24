@@ -1,7 +1,7 @@
 import React from "react";
 import author from "../components/images/InShot_20210803_101306628.jpg"
 
-import { FaTwitterSquare, FaInstagram, FaFacebookSquare, FaGithubSquare, FaLinkedin } from "react-icons/fa";
+import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 
 const AboutMe = () => {
     return (
