@@ -49,7 +49,7 @@ const Services = () => {
                     <div className="col-md-4 col-sm-6">
                         <div className="box">
          <div className="circle"><FontAwesomeIcon icon={faUsers} size="4x" color="green"/></div>
-                            <h3>Social Professionalism</h3>
+                            <h3>Social Engineering</h3>
                             <p>Over the years I've developed many soft skills that I've used in many organizations to provide effective and progressional environments </p>
                             <p><u>Social/Analytical  Development</u></p>
                             <ul className="techlist">
