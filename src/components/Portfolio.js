@@ -43,7 +43,10 @@ const Portfolio = () => {
     <img src={TBA} class="card-img-top" alt="..."/>
     <div class="card-body">
       <h5 class="card-title">Group Project</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <p class="card-text">FreeGo – FreeGo is a mobile application. With this application, users will be able to receive live updates on hazards that are occurring in their area. All hazards are from other people in your area that saw and reported that issue. This way, users can use this application to keep themselves and others safe during their day-to-day activities.
+
+
+Technologies Used: React.js, Leaflet.js, Express.js, Git, React-Geocode, Passport Authentication, Node.js, Redux, Saga, Rest APIs, PostgreSQL, HTML and CSS, and Bootstrap.</p>
     </div>
     <div id="cards" class="card-footer">
       <a href="https://github.com/habibshahid2013/redux-pizza-parlor2">

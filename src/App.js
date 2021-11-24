@@ -9,6 +9,7 @@ import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
 import Experience from './components/Experience';
 import Services from './components/Services'
+import ContactMe from './components/ContactMe'
 
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
      <Experience/>
       <Services/>
      <Portfolio/>
+     <ContactMe/>
 
      <Footer/>
      </>
